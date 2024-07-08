@@ -31,7 +31,7 @@ mongoose.connection.on('connected', () => {
 
     //this middleware was outside tht connection function
     app.use(cors({
-        origin: 'http://localhost:3000', // Adjust this to match your frontend URL
+        origin: 'https://go-foodfrontend-pranavs-projects-5b57fed6.vercel.app/', // Adjust this to match your frontend URL
         credentials: true, // This allows cookies and other credentials to be sent across domains
     }));
 
